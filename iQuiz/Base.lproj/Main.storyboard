@@ -43,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="-430" y="-226"/>
         </scene>
-        <!--View Controller-->
+        <!--Question View Controller-->
         <scene sceneID="Ku1-do-pPi">
             <objects>
-                <viewController id="3iM-ig-ba2" sceneMemberID="viewController">
+                <viewController id="3iM-ig-ba2" customClass="QuestionViewController" customModule="iQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pNt-dx-X1u"/>
                         <viewControllerLayoutGuide type="bottom" id="3V5-3n-fOS"/>
@@ -54,17 +54,40 @@
                     <view key="view" contentMode="scaleToFill" id="tn6-tr-V5D">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMJ-Jl-yJw">
+                                <rect key="frame" x="20" y="28" width="560" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gt5-T8-LRI">
+                                <rect key="frame" x="0.0" y="192" width="600" height="216"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ijf-nh-ok8">
+                                <rect key="frame" x="276" y="550" width="49" height="30"/>
+                                <state key="normal" title="Submit"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gt5-T8-LRI" firstAttribute="top" secondItem="pNt-dx-X1u" secondAttribute="bottom" constant="172" id="5of-9o-WNK"/>
+                            <constraint firstItem="ijf-nh-ok8" firstAttribute="top" secondItem="pNt-dx-X1u" secondAttribute="bottom" constant="530" id="kuj-am-RJv"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="answerPicker" destination="gt5-T8-LRI" id="3Mj-OM-QYM"/>
+                        <outlet property="questionLabel" destination="gMJ-Jl-yJw" id="hc4-Cl-dYZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h39-3l-guF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-430" y="468"/>
         </scene>
-        <!--View Controller-->
+        <!--Answer View Controller-->
         <scene sceneID="FBP-Xz-x0N">
             <objects>
-                <viewController id="7rW-Jk-Xb1" sceneMemberID="viewController">
+                <viewController id="7rW-Jk-Xb1" customClass="AnswerViewController" customModule="iQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Tra-w7-d5g"/>
                         <viewControllerLayoutGuide type="bottom" id="uy3-6H-Vhi"/>
@@ -72,8 +95,30 @@
                     <view key="view" contentMode="scaleToFill" id="fh4-Oi-eIC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xor-ZA-TEO">
+                                <rect key="frame" x="20" y="28" width="560" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUM-Pe-ZbL">
+                                <rect key="frame" x="20" y="105" width="560" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hUM-Pe-ZbL" firstAttribute="centerX" secondItem="fh4-Oi-eIC" secondAttribute="centerX" id="3Ks-d8-LEL"/>
+                            <constraint firstItem="Xor-ZA-TEO" firstAttribute="centerX" secondItem="fh4-Oi-eIC" secondAttribute="centerX" id="PgQ-B6-g4X"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="hUM-Pe-ZbL" id="Btv-ij-GAZ"/>
+                        <outlet property="questionLabel" destination="Xor-ZA-TEO" id="b6A-cy-D6a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4S5-XX-woZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
