@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:iOS-iQuiz-pt2.xcodeproj">
+      location = "self:iQuiz.xcodeproj">
    </FileRef>
 </Workspace>

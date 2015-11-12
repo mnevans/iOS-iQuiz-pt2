@@ -1,15 +1,15 @@
 //
-//  iOS_iQuiz_pt2Tests.swift
-//  iOS-iQuiz-pt2Tests
+//  iQuizTests.swift
+//  iQuizTests
 //
-//  Created by Morgan Evans on 11/10/15.
+//  Created by Morgan Evans on 11/3/15.
 //  Copyright © 2015 Morgan Evans. All rights reserved.
 //
 
 import XCTest
-@testable import iOS_iQuiz_pt2
+@testable import iQuiz
 
-class iOS_iQuiz_pt2Tests: XCTestCase {
+class iQuizTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

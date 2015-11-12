@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>iOS-iQuiz-pt2.xcscheme</key>
+		<key>iQuiz.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2052642D1BF3237D0042F5C2</key>
+		<key>20A7A1D41BE999590028959F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>205264411BF3237E0042F5C2</key>
+		<key>20A7A1E81BE9995A0028959F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2052644C1BF3237E0042F5C2</key>
+		<key>20A7A1F31BE9995A0028959F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

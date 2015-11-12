@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  iOS-iQuiz-pt2
+//  iQuiz
 //
-//  Created by Morgan Evans on 11/10/15.
+//  Created by Morgan Evans on 11/3/15.
 //  Copyright © 2015 Morgan Evans. All rights reserved.
 //
 

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2052642D1BF3237D0042F5C2"
-               BuildableName = "iOS-iQuiz-pt2.app"
-               BlueprintName = "iOS-iQuiz-pt2"
-               ReferencedContainer = "container:iOS-iQuiz-pt2.xcodeproj">
+               BlueprintIdentifier = "20A7A1D41BE999590028959F"
+               BuildableName = "iQuiz.app"
+               BlueprintName = "iQuiz"
+               ReferencedContainer = "container:iQuiz.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "205264411BF3237E0042F5C2"
-               BuildableName = "iOS-iQuiz-pt2Tests.xctest"
-               BlueprintName = "iOS-iQuiz-pt2Tests"
-               ReferencedContainer = "container:iOS-iQuiz-pt2.xcodeproj">
+               BlueprintIdentifier = "20A7A1E81BE9995A0028959F"
+               BuildableName = "iQuizTests.xctest"
+               BlueprintName = "iQuizTests"
+               ReferencedContainer = "container:iQuiz.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2052644C1BF3237E0042F5C2"
-               BuildableName = "iOS-iQuiz-pt2UITests.xctest"
-               BlueprintName = "iOS-iQuiz-pt2UITests"
-               ReferencedContainer = "container:iOS-iQuiz-pt2.xcodeproj">
+               BlueprintIdentifier = "20A7A1F31BE9995A0028959F"
+               BuildableName = "iQuizUITests.xctest"
+               BlueprintName = "iQuizUITests"
+               ReferencedContainer = "container:iQuiz.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2052642D1BF3237D0042F5C2"
-            BuildableName = "iOS-iQuiz-pt2.app"
-            BlueprintName = "iOS-iQuiz-pt2"
-            ReferencedContainer = "container:iOS-iQuiz-pt2.xcodeproj">
+            BlueprintIdentifier = "20A7A1D41BE999590028959F"
+            BuildableName = "iQuiz.app"
+            BlueprintName = "iQuiz"
+            ReferencedContainer = "container:iQuiz.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2052642D1BF3237D0042F5C2"
-            BuildableName = "iOS-iQuiz-pt2.app"
-            BlueprintName = "iOS-iQuiz-pt2"
-            ReferencedContainer = "container:iOS-iQuiz-pt2.xcodeproj">
+            BlueprintIdentifier = "20A7A1D41BE999590028959F"
+            BuildableName = "iQuiz.app"
+            BlueprintName = "iQuiz"
+            ReferencedContainer = "container:iQuiz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2052642D1BF3237D0042F5C2"
-            BuildableName = "iOS-iQuiz-pt2.app"
-            BlueprintName = "iOS-iQuiz-pt2"
-            ReferencedContainer = "container:iOS-iQuiz-pt2.xcodeproj">
+            BlueprintIdentifier = "20A7A1D41BE999590028959F"
+            BuildableName = "iQuiz.app"
+            BlueprintName = "iQuiz"
+            ReferencedContainer = "container:iQuiz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
