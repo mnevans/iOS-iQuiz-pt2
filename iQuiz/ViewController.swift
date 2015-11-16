@@ -11,21 +11,21 @@ import UIKit
 class ViewController: UIViewController {
     private let questionSeque = "questionSegue"
     private let mathQuestions = [
-        Question(question: "8 * 3", answers: ["5", "24", "11"], correctAnswer: "24"),
-        Question(question: "4 - 2", answers: ["2", "6", "8"], correctAnswer: "2"),
-        Question(question: "1 + 6", answers: ["6", "5", "7"], correctAnswer: "7")
+        Question(question: "2 + 2", answers: ["4", "2", "6"], correctAnswer: "4"),
+        Question(question: "5-1", answers: ["4", "3", "-2"], correctAnswer: "4"),
+        Question(question: "6+0", answers: ["6", "1", "3"], correctAnswer: "6")
     ]
-
     private let marvelQuestions = [
-        Question(question: "Superman's real name?", answers: ["Clark Kent", "Spider Man", "Frodo"], correctAnswer: "Clark Kent"),
-        Question(question: "Who is a Marvel Character?", answers: ["Superman", "Your mom", "Spongebob"], correctAnswer: "Superman"),
-        Question(question: "What is the name of another comic brand", answers: ["Dark Horse", "Freebird", "Your mom"], correctAnswer: "Dark Horse")
+        Question(question: "What is Spiderman's lovers name?", answers: ["Mary Jane", "Janet Marie", "Helga"], correctAnswer: "Mary Jane"),
+        Question(question: "What color is the Hulk?", answers: ["Red", "Green", "Blue"], correctAnswer: "Green"),
+        Question(question: "What is Spiderman's real name?", answers: ["Spidey", "Parker Peter", "Peter Parker"], correctAnswer: "Peter Parker")
     ]
     private let scienceQuestions = [
-        Question(question: "What is the powerhouse of the cell?", answers: ["Mitochondria", "Your Mom", "Conrad"], correctAnswer: "Mitochondria"),
-        Question(question: "What is the act of energy through light", answers: ["Photosynthesis", "YAH YAH YAH", "Lorde"], correctAnswer: "Photosynthesis"),
-        Question(question: "Are Whales mamal?", answers: ["Yes", "No", "Don't tell me nothing"], correctAnswer: "Yes")
+        Question(question: "What's the first color of the color spectrum?", answers: ["Orange", "Red", "Yellow"], correctAnswer: "Red"),
+        Question(question: "What is the first element on the periodic table?", answers: ["Gold", "Oxygen", "Hydrogen"], correctAnswer: "Hydrogen"),
+        Question(question: "What is the closest planet to the sun?", answers: ["Mercury", "Earth", "Pluto"], correctAnswer: "Mercury")
     ]
+    
     private var quizzes: [String: [Question]] = ["":[]]
     
     let simpleTableIdentifier = "SimpleTableIdentifier"
