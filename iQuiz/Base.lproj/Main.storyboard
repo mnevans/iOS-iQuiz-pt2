@@ -80,6 +80,7 @@
                                 <state key="normal" title="Check status"/>
                                 <connections>
                                     <action selector="checkURL:" destination="e4n-m2-vom" eventType="touchUpInside" id="lvN-2j-h4y"/>
+                                    <segue destination="GUS-Vc-MlG" kind="show" id="Q1z-Yr-maP"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGk-m3-pRp">
@@ -348,7 +349,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Q1z-Yr-maP"/>
         <segue reference="jRU-en-GIM"/>
-        <segue reference="3GH-vq-DhZ"/>
     </inferredMetricsTieBreakers>
 </document>

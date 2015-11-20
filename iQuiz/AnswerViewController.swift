@@ -56,7 +56,7 @@ class AnswerViewController: UIViewController {
             questionViewController.currentQuestionIndex = currentQuestionIndex + 1  // Increment Question
             questionViewController.numOfCorrectAnswers = numOfCorrectAnswers
         } else if segue.identifier == FINAL_SEGUE {
-            let finishedViewController = segue.destinationViewController as! FinishedViewController
+            let finishedViewController = segue.destinationViewController as! FinalViewController
             finishedViewController.numOfCorrectAnswers = numOfCorrectAnswers
             finishedViewController.questions = questions
         }
