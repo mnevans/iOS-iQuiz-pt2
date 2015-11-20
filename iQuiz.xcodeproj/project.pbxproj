@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		206BEACA1BFF021F00A69402 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206BEAC91BFF021F00A69402 /* SettingsViewController.swift */; };
+		206BEACC1BFF064500A69402 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206BEACB1BFF064500A69402 /* WebService.swift */; };
 		20775EE81BF9387200E8D6D5 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20775EE71BF9387200E8D6D5 /* FinalViewController.swift */; };
 		20775EEA1BF93AC600E8D6D5 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20775EE91BF93AC600E8D6D5 /* Quiz.swift */; };
 		20775EF01BF967FC00E8D6D5 /* 8bit.png in Resources */ = {isa = PBXBuildFile; fileRef = 20775EEF1BF967FC00E8D6D5 /* 8bit.png */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		206BEAC91BFF021F00A69402 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		206BEACB1BFF064500A69402 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		20775EE71BF9387200E8D6D5 /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 		20775EE91BF93AC600E8D6D5 /* Quiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		20775EEF1BF967FC00E8D6D5 /* 8bit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8bit.png; path = "../../Portfolio Graphics/8bit.png"; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				20A7A1D81BE999590028959F /* AppDelegate.swift */,
 				20A7A1DA1BE999590028959F /* ViewController.swift */,
 				20A7A1DC1BE999590028959F /* Main.storyboard */,
+				206BEACB1BFF064500A69402 /* WebService.swift */,
+				206BEAC91BFF021F00A69402 /* SettingsViewController.swift */,
 				20775EE71BF9387200E8D6D5 /* FinalViewController.swift */,
 				20775EEF1BF967FC00E8D6D5 /* 8bit.png */,
 				20775EE91BF93AC600E8D6D5 /* Quiz.swift */,
@@ -274,6 +280,8 @@
 			files = (
 				20775EE81BF9387200E8D6D5 /* FinalViewController.swift in Sources */,
 				207D5A141BF45A410003CC22 /* AnswerViewController.swift in Sources */,
+				206BEACC1BFF064500A69402 /* WebService.swift in Sources */,
+				206BEACA1BFF021F00A69402 /* SettingsViewController.swift in Sources */,
 				20775EEA1BF93AC600E8D6D5 /* Quiz.swift in Sources */,
 				20A7A1DB1BE999590028959F /* ViewController.swift in Sources */,
 				20A7A1D91BE999590028959F /* AppDelegate.swift in Sources */,

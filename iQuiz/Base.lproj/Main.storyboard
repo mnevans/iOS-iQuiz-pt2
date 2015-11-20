@@ -51,6 +51,67 @@
             </objects>
             <point key="canvasLocation" x="-430" y="-226"/>
         </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="0CL-W4-9ts">
+            <objects>
+                <viewController id="e4n-m2-vom" customClass="SettingsViewController" customModule="iQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jzE-UB-9Zh"/>
+                        <viewControllerLayoutGuide type="bottom" id="jt7-pf-mHy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="guB-8k-O3H">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="URL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8K-PA-pH0">
+                                <rect key="frame" x="29" y="28" width="33" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="ANf-5K-cJz">
+                                <rect key="frame" x="290" y="341" width="20" height="20"/>
+                                <animations/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLI-91-Kc4">
+                                <rect key="frame" x="255" y="550" width="90" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Check status"/>
+                                <connections>
+                                    <action selector="checkURL:" destination="e4n-m2-vom" eventType="touchUpInside" id="lvN-2j-h4y"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGk-m3-pRp">
+                                <rect key="frame" x="29" y="426" width="551" height="40"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="http://tednewardsandbox.site44.com/questions.json" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Df-4C-sTN">
+                                <rect key="frame" x="29" y="57" width="400" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OLI-91-Kc4" firstAttribute="centerX" secondItem="guB-8k-O3H" secondAttribute="centerX" id="kjH-rJ-h0s"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityView" destination="ANf-5K-cJz" id="bPt-iO-ESm"/>
+                        <outlet property="connectionStatus" destination="kGk-m3-pRp" id="A6v-Zv-bFc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="647-OI-Mz0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="232" y="-645"/>
+        </scene>
         <!--Question View Controller-->
         <scene sceneID="Ku1-do-pPi">
             <objects>
