@@ -11,7 +11,6 @@
 		206BEACC1BFF064500A69402 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206BEACB1BFF064500A69402 /* WebService.swift */; };
 		20775EE81BF9387200E8D6D5 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20775EE71BF9387200E8D6D5 /* FinalViewController.swift */; };
 		20775EEA1BF93AC600E8D6D5 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20775EE91BF93AC600E8D6D5 /* Quiz.swift */; };
-		20775EF01BF967FC00E8D6D5 /* 8bit.png in Resources */ = {isa = PBXBuildFile; fileRef = 20775EEF1BF967FC00E8D6D5 /* 8bit.png */; };
 		207D5A121BF45A120003CC22 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207D5A111BF45A120003CC22 /* QuestionViewController.swift */; };
 		207D5A141BF45A410003CC22 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207D5A131BF45A410003CC22 /* AnswerViewController.swift */; };
 		20A7A1D91BE999590028959F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A7A1D81BE999590028959F /* AppDelegate.swift */; };
@@ -21,6 +20,7 @@
 		20A7A1E31BE999590028959F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A7A1E11BE999590028959F /* LaunchScreen.storyboard */; };
 		20A7A1EE1BE9995A0028959F /* iQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A7A1ED1BE9995A0028959F /* iQuizTests.swift */; };
 		20A7A1F91BE9995A0028959F /* iQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A7A1F81BE9995A0028959F /* iQuizUITests.swift */; };
+		9D5D6C211C178A8F004E8ED8 /* 8bit.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D5D6C201C178A8F004E8ED8 /* 8bit.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		206BEACB1BFF064500A69402 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		20775EE71BF9387200E8D6D5 /* FinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 		20775EE91BF93AC600E8D6D5 /* Quiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
-		20775EEF1BF967FC00E8D6D5 /* 8bit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8bit.png; path = "../../Portfolio Graphics/8bit.png"; sourceTree = "<group>"; };
 		207D5A111BF45A120003CC22 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		207D5A131BF45A410003CC22 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 		20A7A1D51BE999590028959F /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +60,7 @@
 		20A7A1F41BE9995A0028959F /* iQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A7A1F81BE9995A0028959F /* iQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITests.swift; sourceTree = "<group>"; };
 		20A7A1FA1BE9995A0028959F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D5D6C201C178A8F004E8ED8 /* 8bit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8bit.png; path = ../../Documents/8bit.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +91,7 @@
 		20A7A1CC1BE999590028959F = {
 			isa = PBXGroup;
 			children = (
+				9D5D6C201C178A8F004E8ED8 /* 8bit.png */,
 				20A7A1D71BE999590028959F /* iQuiz */,
 				20A7A1EC1BE9995A0028959F /* iQuizTests */,
 				20A7A1F71BE9995A0028959F /* iQuizUITests */,
@@ -117,7 +118,6 @@
 				206BEACB1BFF064500A69402 /* WebService.swift */,
 				206BEAC91BFF021F00A69402 /* SettingsViewController.swift */,
 				20775EE71BF9387200E8D6D5 /* FinalViewController.swift */,
-				20775EEF1BF967FC00E8D6D5 /* 8bit.png */,
 				20775EE91BF93AC600E8D6D5 /* Quiz.swift */,
 				207D5A111BF45A120003CC22 /* QuestionViewController.swift */,
 				207D5A131BF45A410003CC22 /* AnswerViewController.swift */,
@@ -252,7 +252,7 @@
 			files = (
 				20A7A1E31BE999590028959F /* LaunchScreen.storyboard in Resources */,
 				20A7A1E01BE999590028959F /* Assets.xcassets in Resources */,
-				20775EF01BF967FC00E8D6D5 /* 8bit.png in Resources */,
+				9D5D6C211C178A8F004E8ED8 /* 8bit.png in Resources */,
 				20A7A1DE1BE999590028959F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

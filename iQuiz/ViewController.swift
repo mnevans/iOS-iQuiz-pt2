@@ -73,9 +73,9 @@ class ViewController: UIViewController {
                 cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: simpleTableIdentifier)
             }
             
-            let image = UIImage(named: "8bit")
+            let image = UIImage(named: "8bit.png")
             cell!.imageView?.image = image
-            let highlightedImage = UIImage(named: "8bit")
+            let highlightedImage = UIImage(named: "8bit.ng")
             cell!.imageView?.highlightedImage = highlightedImage
             
             cell!.textLabel?.text = Array(quizzes.keys)[indexPath.row]
