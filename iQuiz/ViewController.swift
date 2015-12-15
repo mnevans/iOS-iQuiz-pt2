@@ -8,9 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIPopoverPresentationControllerDelegate {
+class ViewController: UIViewController, UIPopoverPresentationControllerDelegate, UITableViewDelegate, UITableViewDataSource {
     private let settingsViewController = SettingsViewController()
-    private let questionSeque = "questionSegue"
+    private let questionSegue = "questionSegue"
+    
+    @IBOutlet weak var tableView: UITableView!
+    
     private let mathQuestions = [
         Question(question: "2 + 2", answers: ["4", "2", "6"], correctAnswer: "4"),
         Question(question: "5 - 1", answers: ["4", "3", "-2"], correctAnswer: "4"),
@@ -45,19 +48,6 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
         super.didReceiveMemoryWarning()
     }
     
-    // Event handler for pressing the settings button
-    // Currently displays a pop up dialog
-    /*@IBAction func settingsPressed(sender: UIBarButtonItem) {
-        let title = "Settings go here"
-        let controller = UIAlertController(title: title, message: nil,
-            preferredStyle: .Alert)
-        let action = UIAlertAction(title: "OK",
-            style: .Default, handler: nil)
-        controller.addAction(action)
-        
-        presentViewController(controller, animated: true, completion: nil)
-    }*/
-    
     // Number of mandatory rows
     func tableView(tableView: UITableView,
         numberOfRowsInSection section: Int) -> Int {
@@ -87,12 +77,12 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
     func tableView(tableView: UITableView,
         didSelectRowAtIndexPath indexPath: NSIndexPath) {
             let cell = tableView.cellForRowAtIndexPath(indexPath)
-            performSegueWithIdentifier(questionSeque, sender: cell)
+            performSegueWithIdentifier(questionSegue, sender: cell)
             tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
-        if segue.identifier == questionSeque {
+        if segue.identifier == questionSegue {
             let cell = sender as! UITableViewCell
             let key = cell.textLabel?.text
             let problems = quizzes[key!]

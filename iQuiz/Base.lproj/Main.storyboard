@@ -41,6 +41,7 @@
                     <navigationItem key="navigationItem" title="Subjects" id="gcs-4X-SUb"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="tableView" destination="IAP-dv-z5G" id="lxn-x8-DtT"/>
                         <segue destination="3iM-ig-ba2" kind="show" identifier="questionSegue" id="TIT-tB-vja"/>
                     </connections>
                 </viewController>
