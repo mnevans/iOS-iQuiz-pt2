@@ -8,12 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIPopoverPresentationControllerDelegate {
+    private let settingsViewController = SettingsViewController()
     private let questionSeque = "questionSegue"
     private let mathQuestions = [
         Question(question: "2 + 2", answers: ["4", "2", "6"], correctAnswer: "4"),
-        Question(question: "5-1", answers: ["4", "3", "-2"], correctAnswer: "4"),
-        Question(question: "6+0", answers: ["6", "1", "3"], correctAnswer: "6")
+        Question(question: "5 - 1", answers: ["4", "3", "-2"], correctAnswer: "4"),
+        Question(question: "6 + 0", answers: ["6", "1", "3"], correctAnswer: "6")
     ]
     private let marvelQuestions = [
         Question(question: "What is Spiderman's lovers name?", answers: ["Mary Jane", "Janet Marie", "Helga"], correctAnswer: "Mary Jane"),
@@ -42,12 +43,11 @@ class ViewController: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     // Event handler for pressing the settings button
     // Currently displays a pop up dialog
-    @IBAction func settingsPressed(sender: UIBarButtonItem) {
+    /*@IBAction func settingsPressed(sender: UIBarButtonItem) {
         let title = "Settings go here"
         let controller = UIAlertController(title: title, message: nil,
             preferredStyle: .Alert)
@@ -56,7 +56,7 @@ class ViewController: UIViewController {
         controller.addAction(action)
         
         presentViewController(controller, animated: true, completion: nil)
-    }
+    }*/
     
     // Number of mandatory rows
     func tableView(tableView: UITableView,
@@ -73,15 +73,13 @@ class ViewController: UIViewController {
                 cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: simpleTableIdentifier)
             }
             
-            let image = UIImage(named: "8bit.png")
+            //let correspondingKey = Array(quizzes.keys)[indexPath.row]
+            
+            let image = UIImage(named: "marvel")
             cell!.imageView?.image = image
-            let highlightedImage = UIImage(named: "8bit.ng")
-            cell!.imageView?.highlightedImage = highlightedImage
             
             cell!.textLabel?.text = Array(quizzes.keys)[indexPath.row]
             cell!.textLabel?.font = UIFont .boldSystemFontOfSize(18)
-            //cell!.detailTextLabel?.text = "Hella single-origin coffee intelligentsia, plaid trust fund keffiyeh 8-bit."
-            //cell.detailTextLabel?.font = UIFont.systemFontOfSize(12)
             return cell!
     }
     

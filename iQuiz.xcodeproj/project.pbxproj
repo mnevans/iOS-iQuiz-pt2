@@ -20,7 +20,9 @@
 		20A7A1E31BE999590028959F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A7A1E11BE999590028959F /* LaunchScreen.storyboard */; };
 		20A7A1EE1BE9995A0028959F /* iQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A7A1ED1BE9995A0028959F /* iQuizTests.swift */; };
 		20A7A1F91BE9995A0028959F /* iQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A7A1F81BE9995A0028959F /* iQuizUITests.swift */; };
-		9D5D6C211C178A8F004E8ED8 /* 8bit.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D5D6C201C178A8F004E8ED8 /* 8bit.png */; };
+		9DC480C51C20B44000144796 /* Marvel.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC480C21C20B44000144796 /* Marvel.png */; };
+		9DC480C61C20B44000144796 /* Mathematics.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC480C31C20B44000144796 /* Mathematics.png */; };
+		9DC480C71C20B44000144796 /* Science.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC480C41C20B44000144796 /* Science.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +62,9 @@
 		20A7A1F41BE9995A0028959F /* iQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A7A1F81BE9995A0028959F /* iQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITests.swift; sourceTree = "<group>"; };
 		20A7A1FA1BE9995A0028959F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D5D6C201C178A8F004E8ED8 /* 8bit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8bit.png; path = ../../Documents/8bit.png; sourceTree = "<group>"; };
+		9DC480C21C20B44000144796 /* Marvel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Marvel.png; path = ../../../Downloads/Marvel.png; sourceTree = "<group>"; };
+		9DC480C31C20B44000144796 /* Mathematics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mathematics.png; path = ../../../Downloads/Mathematics.png; sourceTree = "<group>"; };
+		9DC480C41C20B44000144796 /* Science.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Science.png; path = ../../../Downloads/Science.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +95,6 @@
 		20A7A1CC1BE999590028959F = {
 			isa = PBXGroup;
 			children = (
-				9D5D6C201C178A8F004E8ED8 /* 8bit.png */,
 				20A7A1D71BE999590028959F /* iQuiz */,
 				20A7A1EC1BE9995A0028959F /* iQuizTests */,
 				20A7A1F71BE9995A0028959F /* iQuizUITests */,
@@ -114,6 +117,9 @@
 			children = (
 				20A7A1D81BE999590028959F /* AppDelegate.swift */,
 				20A7A1DA1BE999590028959F /* ViewController.swift */,
+				9DC480C21C20B44000144796 /* Marvel.png */,
+				9DC480C31C20B44000144796 /* Mathematics.png */,
+				9DC480C41C20B44000144796 /* Science.png */,
 				20A7A1DC1BE999590028959F /* Main.storyboard */,
 				206BEACB1BFF064500A69402 /* WebService.swift */,
 				206BEAC91BFF021F00A69402 /* SettingsViewController.swift */,
@@ -250,10 +256,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC480C51C20B44000144796 /* Marvel.png in Resources */,
 				20A7A1E31BE999590028959F /* LaunchScreen.storyboard in Resources */,
 				20A7A1E01BE999590028959F /* Assets.xcassets in Resources */,
-				9D5D6C211C178A8F004E8ED8 /* 8bit.png in Resources */,
 				20A7A1DE1BE999590028959F /* Main.storyboard in Resources */,
+				9DC480C71C20B44000144796 /* Science.png in Resources */,
+				9DC480C61C20B44000144796 /* Mathematics.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
